@@ -1,4 +1,4 @@
-# Last Character (no Invis-chaars) test
+# Last Character (no Invis-chars) test
 
 ```css
 ######### A: B C
