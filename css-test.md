@@ -36,13 +36,13 @@ This test uses a Space with two `Variation Selector-15` modifiers (`\u0200\uFE0E
  
  ```css
 ######### A:‌ B C
-######### D E F
+######### :‌ D E F
 :###  ##: A:‌ B C
-:###  ##: D E F
+:###  ##: :‌ D E F
 `##. .##´ A:‌ B C
-`##. .##´ D E F
+`##. .##´ :‌ D E F
 ³#:. .:#³ A:‌ B C
-³#:. .:#³ D E F
+³#:. .:#³ :‌ D E F
 .#######. A:‌ B C
-.#######. D E F
+.#######. :‌ D E F
  ```
