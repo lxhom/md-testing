@@ -47,17 +47,17 @@ This test uses a Space with two `Variation Selector-15` modifiers (`\u0200\uFE0E
  
  # Line Wrap Formatting (with ZWNJ's) test
  
- This test is the same as above, but it uses the `Zero Width Non Joiner` character (`\u200C`) after the `:`'s
+ This test is the same as above, but it uses the `::` to make the text green.
  
-```css
-######### ︎︎:‌B C
-######### ︎︎:‌B C
-:###  ##: ︎︎:‌B C
-:###  ##: ︎︎:‌B C
-`##. .##´ ︎︎:‌B C
-`##. .##´ ︎︎:‌B C
-³#:. .:#³ ︎︎:‌B C
-³#:. .:#³ ︎︎:‌B C
-.#######. ︎︎:‌B C
-.#######. ︎︎:‌B C
+ ```css
+######### ︎︎A:: B C
+######### ︎︎::B C
+:###  ##: ︎︎A:: B C
+:###  ##: ︎︎::B C
+`##. .##´ ︎︎A:: B C
+`##. .##´ ︎︎::B C
+³#:. .:#³ ︎︎A:: B C
+³#:. .:#³ ︎︎::B C
+.#######. ︎︎A:: B C
+.#######. ︎︎:: B C
  ```
